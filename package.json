@@ -1,0 +1,34 @@
+{
+  "name": "org.loma.scraper",
+  "version": "1.0.0",
+  "description": "Text Scraper with Headless Chrome, Puppetter and Boilerpipe",
+  "main": "index.js",
+  "dependencies": {
+    "boilerpipe": "0.0.7",
+    "node-gyp": "^3.7.0",
+    "node-java": "^1.0.1",
+    "puppeteer": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rmuraliananth",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmuraliananth/loma-text-scraper.git"
+  },
+  "keywords": [
+    "Text",
+    "Scraper",
+    "Headless",
+    "Browser",
+    "Boilerpipe",
+    "Puppetter"
+  ],
+  "bugs": {
+    "url": "https://github.com/rmuraliananth/loma-text-scraper/issues"
+  },
+  "homepage": "https://github.com/rmuraliananth/loma-text-scraper#readme"
+}
