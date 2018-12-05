@@ -1,4 +1,4 @@
-const LomlTextScraper = require('./src/scraper.js');
+const LomaTextScraper = require('./src/scraper.js');
 
 function run () {
     // return new Promise(async (resolve, reject) => {
@@ -22,7 +22,7 @@ function run () {
     //     }
     // })
     var url = 'http://healthmap.org/ln.php?5932210&promed&0';
-    const lomlTextScraper = new LomlTextScraper();
-    console.log(lomlTextScraper.scrape(url));
+    const LomaTextScraper = new LomaTextScraper();
+    console.log(LomaTextScraper.scrape(url));
 }
 run();//.then(console.log).catch(console.error);

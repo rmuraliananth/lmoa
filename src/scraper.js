@@ -1,21 +1,21 @@
 (function () {
     'use strict';
-    var LomlTextScraper = function() {
+    var LomaTextScraper = function() {
     };
 
-    LomlTextScraper.prototype.scrape = function(url){
+    LomaTextScraper.prototype.scrape = function(url){
         console.log('scrape');
-        var html = new LomlWebContentReader().read(url);
+        var html = new LomaWebContentReader().read(url);
         console.log(html);
-        // var lomlTextParser = new LomlTextParser()
-        // var text = lomlTextParser.parseHtmlToText(html, lomlTextParser.getText);
+        // var LomaTextParser = new LomaTextParser()
+        // var text = LomaTextParser.parseHtmlToText(html, LomaTextParser.getText);
         return html;
     };
 
-    var LomlWebContentReader = function(){
+    var LomaWebContentReader = function(){
     };
 
-    LomlWebContentReader.prototype.read = function(urn){
+    LomaWebContentReader.prototype.read = function(urn){
         const puppeteer = require('puppeteer');
         console.log('read web content for given urn', urn);
         return new Promise(async (resolve, reject) => {
@@ -25,8 +25,8 @@
                 const response = await page.goto(urn);
                 const html = await page.content();
                 browser.close();
-                var lomlTextParser = new LomlTextParser();
-                const text = await lomlTextParser.parseHtmlToText(html);
+                var LomaTextParser = new LomaTextParser();
+                const text = await LomaTextParser.parseHtmlToText(html);
                 console.log(text);
                 return resolve(text);
             } catch (e) {
@@ -36,9 +36,9 @@
         })
     };
 
-    var LomlTextParser = (function(){
+    var LomaTextParser = (function(){
         var _text='murali';
-        LomlTextParser.prototype.parseHtmlToText = async function(html) {
+        LomaTextParser.prototype.parseHtmlToText = async function(html) {
           const Boilerpipe = require('boilerpipe');
           console.log('parse html to text');
           // return new Promise(async (resolve, reject) => {
@@ -56,12 +56,12 @@
             return text;
         };
 
-        LomlTextParser.prototype.getText = async function(error,text) {
+        LomaTextParser.prototype.getText = async function(error,text) {
           console.log(text);
           return text;
         };
 
     });
 
-    exports = module.exports = LomlTextScraper;
+    exports = module.exports = LomaTextScraper;
 })();
