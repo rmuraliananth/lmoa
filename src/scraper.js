@@ -14,7 +14,7 @@
 
     var LomaWebContentReader = function(){
     };
-
+ 
     LomaWebContentReader.prototype.read = function(urn){
         const puppeteer = require('puppeteer');
         console.log('read web content for given urn', urn);
