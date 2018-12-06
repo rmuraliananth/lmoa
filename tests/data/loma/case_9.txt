@@ -1,0 +1,6 @@
+http://daily.latest.tonythanh.com/news/tragic-measles-outbreak-kills-eight-in-ukraine
+scraping started ...
+read html content for given urn :  http://daily.latest.tonythanh.com/news/tragic-measles-outbreak-kills-eight-in-ukraine
+parse html to text
+daily.latest.tonythanh.com/news/tragic-measles-outbreak-kills-eight-in-ukraine (port 80)
+

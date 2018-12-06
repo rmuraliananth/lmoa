@@ -1,0 +1,10 @@
+http://www.fitfortravel.nhs.uk/news/newsdetail.aspx%3Fid%3D21789
+scraping started ...
+read html content for given urn :  http://www.fitfortravel.nhs.uk/news/newsdetail.aspx%3Fid%3D21789
+parse html to text
+This website places cookies on your device to help us improve our service to you. To find out more, see our privacy statement. Please click the accept button to continue using the site.
+site search
+Show Menu
+fitfortravel
+http://www.fitfortravel.nhs.uk
+

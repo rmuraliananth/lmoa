@@ -1,28 +1,28 @@
 const LomaTextScraper = require('./src/scraper.js');
+var url = process.argv[2];
+var scrapeResponse;
 
 function run () {
-    // return new Promise(async (resolve, reject) => {
-    //     try {
-    //         const browser = await puppeteer.launch();
-    //         const page = await browser.newPage();
-    //         const response = await page.goto("http://healthmap.org/ln.php?5932210&promed&0");
-    //         // await page.goto("http://www.nejm.org/doi/full/10.1056/NEJMp1807870?rss=searchAndBrowse");
-    //         const html = await page.content();
-    //
-    //         const pipe = new Boilerpipe();
-    //         pipe.setHtml(html);
-    //         pipe.getText(function(err, text){
-    //           console.log('====================================');
-    //           console.log(text);
-    //         });
-    //         browser.close();
-    //         return resolve(html);
-    //     } catch (e) {
-    //         return reject(e);
-    //     }
+    console.log(url);
+    if( url == undefined || url == ''){
+      throw new Error("Please provide valid url");
+    }
+    //  new LomaTextScraper().scrape(url).then(function(results){
+    //   // console.log(results);
     // })
-    var url = 'http://healthmap.org/ln.php?5932210&promed&0';
-    const LomaTextScraper = new LomaTextScraper();
-    console.log(LomaTextScraper.scrape(url));
+
+
+    new LomaTextScraper().scrape(url).then(function(results){
+        scrapeResponse = results;
+        console.log(results);
+        // return scrapeResponse;
+    })
+
+
+    // //   resolve(result);
+    // // },function(err){
+    // //   reject(err);
+    // // });
+
 }
-run();//.then(console.log).catch(console.error);
+run();

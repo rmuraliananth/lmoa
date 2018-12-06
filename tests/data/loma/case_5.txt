@@ -1,0 +1,3 @@
+http://www.cnn.com/2013/11/27/justice/tucson-arizona-captive-girls/
+scraping started ...
+read html content for given urn :  http://www.cnn.com/2013/11/27/justice/tucson-arizona-captive-girls/

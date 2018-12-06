@@ -1,0 +1,47 @@
+https://www.sciencedaily.com/releases/2016/06/160602094841.htm
+scraping started ...
+read html content for given urn :  https://www.sciencedaily.com/releases/2016/06/160602094841.htm
+parse html to text
+Science News
+Global fungal threat: Six new species associated with bat evolution
+Histoplasma infection poses deadly risk to HIV, other immune-compromised patients
+Date:
+Summary:
+A fungal infection associated with a high percentage of deaths among HIV and other immune-compromised patients is more diverse than previously known and likely spread around the world by bats. A global assessment of the fungus Histoplasma found that the pathogen is divided among six species, and its spread and speciation from continent-to-continent over the past 9 million years coincides with the global dispersal and evolution of bats.
+Share:
+FULL STORY
+A fungal infection associated with a high percentage of deaths among HIV and other immune-compromised patients is more diverse than previously known and likely spread around the world by bats.
+advertisement
+A global assessment of the fungus Histoplasma by the Translational Genomics Research Institute (TGen) found that the pathogen is actually divided among six species, and that its spread and speciation from continent-to-continent over the past 9 million years coincides with the global dispersal and evolution of bats.
+Published in the scientific journal PLOS Neglected Tropical Diseases, TGen's study of 234 samples of Histoplasma capsulatum from around the world used the latest in genetic sequencing to characterize the differences between various species of this fungus. The study estimates a timeframe for its evolution, based on the average rate of genetic mutations.
+"We need to better understand this disease so we can be better prepared for infectious outbreaks, and to see its relationship to similar fungal infections, such as Valley Fever," said Dr. Bridget Barker, TGen Assistant Professor of Pathogen Genomics and the senior author of this study. "There currently is no cure and no vaccine for this disease."
+Histoplasma, which thrives in soil containing large amounts of bird or bat droppings, causes histoplasmosis, an infection most often acquired by breathing in microscopic fungal spores in the air. Histoplasmosis also is known as cave disease, spelunker's disease or Darling's disease, after the early 20th century scientist who discovered it. While most people don't get sick, the disease often results in a fever, cough and fatigue. Many get better without medication, but some infections can be severe.
+Histoplasma is responsible for up to 30 percent of all HIV/AIDS-related deaths in Latin America, according to the study. And the U.S. Centers for Disease Control and Prevention warns that other parts of the world are at risk where access to anti-retroviral drugs is limited.
+"And with the increase of immunosuppressive therapy due to transplants and other chronic inflammatory disorders, disseminated histoplasmosis is becoming more frequent and is geographically expanding," said Dr. Marcus Teixeira, a TGen Post-Doctoral Fellow and the study's lead author. "In patients with an impaired immune system, the disease is mostly fatal without an early diagnosis and proper treatment."
+The fungus thrives in moderate temperature, relatively high humidity and low light conditions. Besides bats, Histoplasma also is known to infect baboons, badgers, sea otters, raccoons, horses, cats and dogs.
+The study, "Worldwide phylogenetic distribution and population dynamics of the genus Histoplasma," found that the disease likely began in Latin America and spread worldwide over the last 2-9 million years, during the Miocene and Pleistocene epochs.
+Relatively little is known about the genetic background of the causative agents of histoplasmosis, its relationship with different hosts, and the variation of this disease in clinical presentation. Dr. Teixeira suggests that additional studies are needed to explore the genetic diversity of Histoplasma and correlate that information with medical data to provide public health professionals with answers should there be a disease outbreak or severe clinical cases.
+"Understanding histoplasmosis could not only lead to better treatments for this disease, but also lead to better patient care for related fungal infections," said Dr. Barker, head of TGen's Northern Arizona Center for Valley Fever Research.
+advertisement
+Journal Reference:
+Marcus de M. Teixeira, José S. L. Patané, Maria L. Taylor, Beatriz L. Gómez, Raquel C. Theodoro, Sybren de Hoog, David M. Engelthaler, Rosely M. Zancopé-Oliveira, Maria S. S. Felipe, Bridget M. Barker. Worldwide Phylogenetic Distributions and Population Dynamics of the Genus Histoplasma. PLOS Neglected Tropical Diseases, 2016; 10 (6): e0004732 DOI: 10.1371/journal.pntd.0004732
+Cite This Page:
+The Translational Genomics Research Institute. (2016, June 2). Global fungal threat: Six new species associated with bat evolution: Histoplasma infection poses deadly risk to HIV, other immune-compromised patients. ScienceDaily. Retrieved December 6, 2018 from www.sciencedaily.com/releases/2016/06/160602094841.htm
+The Translational Genomics Research Institute. "Global fungal threat: Six new species associated with bat evolution: Histoplasma infection poses deadly risk to HIV, other immune-compromised patients." ScienceDaily. www.sciencedaily.com/releases/2016/06/160602094841.htm (accessed December 6, 2018).
+advertisement
+FROM AROUND THE WEB
+Below are relevant articles that may interest you. ScienceDaily shares links with scholarly publications in the TrendMD network and earns revenue from third-party advertisers, where indicated.
+or browse the topics below:
+or browse the topics below:
+or browse the topics below:
+or browse the topics below:
+Have Feedback?
+Tell us what you think of ScienceDaily -- we welcome both positive and negative comments. Have any problems using the site? Questions?
+Copyright 2018 ScienceDaily or by other parties, where indicated. All rights controlled by their respective owners.
+Content on this website is for information only. It is not intended to provide medical or other professional advice.
+Views expressed here do not necessarily reflect those of ScienceDaily, its staff, its contributors, or its partners.
+Financial support for ScienceDaily comes from advertisements and referral programs, where indicated.
+Share this page ...
+Global fungal threat: Six new species associated with bat evolution: Histoplasma infection poses deadly risk to HIV, other immune-compromised patients
+Close
+

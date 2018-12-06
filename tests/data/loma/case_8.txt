@@ -1,0 +1,5 @@
+http://www.fsis.usda.gov/wps/portal/fsis/home/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINAg3MDC2dDbwsfDxdDDz9AtyMgnyMDf3dDPQLsh0VAcy6FX0!/%3F1dmy%26page%3Dgov.usda.fsis.internet.newsroom%26urile%3Dwcm%253Apath%253A%252FFSIS-Content%252Finternet%252Fmain%252Ftopics%252Frecalls-and-public-health-alerts%252Frecall-case-archive%252Farchive%252F2016%252Frecall-065-2016-release
+scraping started ...
+read html content for given urn :  http://www.fsis.usda.gov/wps/portal/fsis/home/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINAg3MDC2dDbwsfDxdDDz9AtyMgnyMDf3dDPQLsh0VAcy6FX0!/%3F1dmy%26page%3Dgov.usda.fsis.internet.newsroom%26urile%3Dwcm%253Apath%253A%252FFSIS-Content%252Finternet%252Fmain%252Ftopics%252Frecalls-and-public-health-alerts%252Frecall-case-archive%252Farchive%252F2016%252Frecall-065-2016-release
+parse html to text
+

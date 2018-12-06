@@ -4,20 +4,23 @@
     };
 
     LomaTextScraper.prototype.scrape = function(url){
-        console.log('scrape');
-        var html = new LomaWebContentReader().read(url);
-        console.log(html);
-        // var LomaTextParser = new LomaTextParser()
-        // var text = LomaTextParser.parseHtmlToText(html, LomaTextParser.getText);
-        return html;
+        console.log('scraping started ...');
+
+        var html = new LomaWebContentReader().read(url).then(function(html){
+            // console.log(html);
+            return new LomaTextParser().parseHtmlToText(html);
+            // return text;
+        })
+      return html;
     };
+
 
     var LomaWebContentReader = function(){
     };
- 
+
     LomaWebContentReader.prototype.read = function(urn){
         const puppeteer = require('puppeteer');
-        console.log('read web content for given urn', urn);
+        console.log('read html content for given urn : ', urn);
         return new Promise(async (resolve, reject) => {
             try {
                 const browser = await puppeteer.launch();
@@ -25,43 +28,38 @@
                 const response = await page.goto(urn);
                 const html = await page.content();
                 browser.close();
-                var LomaTextParser = new LomaTextParser();
-                const text = await LomaTextParser.parseHtmlToText(html);
-                console.log(text);
-                return resolve(text);
+                // var lomaTextParser = new LomaTextParser();
+                // const text = await lomaTextParser.parseHtmlToText(html);
+                // // console.log(text);
+                // return resolve(text);
+                resolve(html);
             } catch (e) {
                 console.error('unable to read web content', e);
-                return reject(e);
+                reject(e);
             }
         })
     };
 
-    var LomaTextParser = (function(){
-        var _text='murali';
-        LomaTextParser.prototype.parseHtmlToText = async function(html) {
-          const Boilerpipe = require('boilerpipe');
-          console.log('parse html to text');
-          // return new Promise(async (resolve, reject) => {
-          //     try {
-                  // use DefaultExtractor to parse html to text
-                  const boilerpipe = new Boilerpipe();
-                  boilerpipe.setHtml(html);
-                  const text = await boilerpipe.getText(this.getText);
-            //       return resolve(text);
-            //   } catch (e) {
-            //       console.error('unable to read web content', e);
-            //       return reject(e);
-            //   }
-            // });
-            return text;
-        };
+    var LomaTextParser = function(){
+    };
 
-        LomaTextParser.prototype.getText = async function(error,text) {
-          console.log(text);
-          return text;
-        };
 
-    });
-
+    LomaTextParser.prototype.parseHtmlToText = function(html) {
+      const Boilerpipe = require('boilerpipe');
+      console.log('parse html to text');
+      return new Promise(async (resolve, reject) => {
+          try {
+              // use DefaultExtractor to parse html to text
+              const boilerpipe = new Boilerpipe();
+              boilerpipe.setHtml(html);
+              const text = await boilerpipe.getText(function(error, text){
+                resolve(text);
+              });
+          } catch (e) {
+              console.error('unable to parse html content to text', e);
+              reject(e);
+          }
+        });
+    };
     exports = module.exports = LomaTextScraper;
 })();

@@ -1,0 +1,28 @@
+http://www.the-japan-news.com/news/article/0005395086
+scraping started ...
+read html content for given urn :  http://www.the-japan-news.com/news/article/0005395086
+parse html to text
+Alexei Nikolsky, Sputnik, Kremlin Pool Photo via AP
+Russian President Vladimir Putin listens to Agriculture Minister Dmitry Patrushev during their meeting in Moscow on Monday.
+12:25 pm, December 06, 2018
+The Associated Press MOSCOW (AP) — Russian President Vladimir Putin on Wednesday warned the United States that if it walks out of a key arms treaty and starts developing the type of missiles banned by it, Russia will do the same.
+Putin’s remarks to Russian news agencies on Wednesday came a day after U.S. Secretary of State Mike Pompeo announced at a NATO meeting that Washington will suspend its obligations under the Intermediate-Range Nuclear Forces Treaty (INF) in 60 days, citing Russian “cheating.”
+The U.S. has shared intelligence evidence with its NATO allies that it says shows that Russia’s new SSC-8 ground-fired cruise missile could give Moscow the ability to launch a nuclear strike in Europe with little or no notice. Russia has denied the accusations.
+President Donald Trump earlier this year announced his decision to withdraw from the INF, accusing Russia and China — which is not a signatory to the treaty — of violating it.
+Putin on Wednesday accused the United States of making up excuses for pulling out of the pact, saying that the U.S. first made up its mind to walk out of it and only then “started to look for the reasons why they should do it.”
+“It seems that our American partners believe that the situation has changed so much that the U.S. has to have this type of weapons,” he said in televised remarks. “What would be our response? A very simple one: in that case, we will do the same.”
+Speaking at a briefing of foreign military attaches earlier, Gen. Valery Gerasimov, chief of staff of the Russian military, warned of a Russian response and said that it would be the countries that host U.S. intermediate-range missiles that would become immediate targets for Russia.
+When signed in 1987, the INF treaty was lauded as a major safeguard for global security since they eliminated shorter-range missiles that take just a few minutes to reach their targets. The removal of such destabilizing weapons would in theory allow more time for decision-making in case of a warning of a missile attack.
+U.S. ally Germany, which has been keen to preserve the treaty, called on Russia to try to save it while it still has the time.
+“The INF treaty is of great significance for security in Europe,” government spokeswoman Ulrike Demmer said in Berlin on Wednesday. “The German government welcomes the fact that the American government is giving its preservation another chance,” she added, referring to the 60-day deadline. She also noted that the issue came up in a meeting between Chancellor Angela Merkel and Trump in Argentina on Saturday.
+“It is now up to Russia to avert the end of the treaty,” Demmer said.
+Offline error: please try again.
+Related
+Consumer rates provided by the Bank of Tokyo Mitsubishi UFJ
+Topix Close
+1610.6 -29.89
+Dec.6 15:05
+Twitter @The_Japan_News
+Loading tweets...
+Facebook Timeline
+
